@@ -1,0 +1,158 @@
+.card_ {
+    display: inline-block;
+    max-width: 28rem;
+    position: relative;
+    padding: 0px;
+    z-index: 1;
+}
+
+.card_:hover {
+    z-index: 2;
+}
+
+.card_ .body_ {
+    border: 0 solid #fff;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: #fff;
+}
+
+.card_:hover .body_ {
+    box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+    -moz-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+    -webkit-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+    -o-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+    -ms-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+    /* animation: fadeIn 1s 0.2s forwards; */
+    transition: box-shadow 0.5s;
+}
+
+.card_ .body_ .image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff;
+}
+
+.card_ .body_ h1 {
+    display: block;
+    height: auto;
+    margin: 10px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card_ .body_ h2 {
+    height: auto;
+    margin: 10px 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.card_ .body_ h3 {
+    height: auto;
+    margin: 10px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card_ .body_ .informations {
+    display: none;
+}
+
+.card_ .body_ .informations p,
+.card_ .body_ .informations label {
+    display: block;
+    height: auto;
+    margin: 10px 0px;
+    font-size: 10px;
+    color: grey;
+    font-weight: normal;
+}
+
+.card_:hover .body_ .informations {
+    display: block;
+    /* transition: opacity 2s ease-out; */
+}
+
+.btnAddCart {
+    color: var(--lightColor);
+    background: var(--secondaryColor);
+    border-radius: 8px;
+    font-size: 13px;
+    width: 100%;
+    border: 0px solid var(--secondaryColor);
+    padding: 5px;
+}
+
+.btnAddCart i {
+    color: inherit;
+    font-size: 15px;
+    font-weight: 0;
+    padding-right: 5px;
+}
+
+.btnAddCart:hover {
+    background: var(--secondaryColor2);
+}
+
+.btnQuickView {
+    color: var(--primaryColor);
+    background: var(--lightColor);
+    border-radius: 8px;
+    font-size: 13px;
+    width: 100%;
+    border: 0px solid var(--lightColor);
+    padding: 5px;
+}
+
+.btnQuickView i {
+    color: inherit;
+    font-size: 15px;
+    font-weight: 0;
+    padding-right: 5px;
+}
+
+.btnQuickView:hover {
+    color: var(--secondaryColor);
+}
+
+@media only screen and (max-width: 2000px) {
+    .card_ {
+        height: 28rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .card_ {
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card_ {
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card_ {
+        height: 22rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .card_ {
+        height: 35rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card_ {
+        height: 30rem;
+    }
+}

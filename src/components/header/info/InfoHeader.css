@@ -1,0 +1,43 @@
+.container_ {
+    background: var(--primaryColor);
+    color: var(--lightGrayColor);
+    font-size: 13px;
+}
+
+.wrapper_ {
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bi {
+    color: var(--secondaryColor);
+}
+
+.iconPosition {
+    vertical-align: -0.2rem;
+    margin-left: 0.2rem;
+}
+
+.container_ .lists {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container_ span:hover {
+    color: var(--lightColor);
+}
+
+.container_ ul .verticalLine {
+    margin: 0 10px;
+    color: var(--lightGrayColor);
+}
+
+.dropdown .textColor {
+    color: var(--lightGrayColor);
+}

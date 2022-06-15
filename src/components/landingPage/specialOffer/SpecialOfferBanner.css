@@ -1,0 +1,68 @@
+.bannerContainer {
+    background: var(--lightBlue);
+    border: 1px solid var(--lightBlue);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.textWidth {
+    width: 300px;
+    text-align: center;
+}
+
+.redBg {
+    color: var(--lightColor);
+    background: var(--secondaryColor);
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.imageResponsive {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.btnOffers {
+    background: var(--green);
+    color: var(--lightColor);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btnOffers i {
+    color: inherit;
+    padding-right: 8px;
+}
+
+.btnOffers i:hover {
+    animation: fadeIn 2s 0.1s forwards;
+}
+
+.btnOffers:hover {
+    background: var(--primaryColor);
+    color: var(--lightColor);
+}
+
+.counter1 {
+    color: var(--secondaryColor);
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1200px) {
+    .imageResponsive {
+        width: 65%;
+    }
+}

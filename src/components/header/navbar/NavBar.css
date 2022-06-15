@@ -1,0 +1,75 @@
+.inputShadow {
+    border: 1px solid var(--lightGrayColor);
+    font-size: 14px;
+    padding: 8px;
+}
+
+.inputShadow:focus {
+    border: 1px solid var(--secondaryColor);
+    box-shadow: 0 0 2px var(--secondaryColor);
+}
+
+.backLight {
+    background: var(--lightColor);
+}
+
+.togglerRemoveShadow {
+    border: 0 solid var(--secondaryColor);
+    box-shadow: 0 0 0 var(--secondaryColor);
+}
+
+.togglerRemoveShadow:focus {
+    box-shadow: 0 0 0 var(--secondaryColor);
+}
+
+.navbar-tool {
+    max-width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-tool-icon-box {
+    width: 40px;
+    font-size: 30px;
+}
+
+.iconColor {
+    color: var(--primaryColor);
+}
+
+.bi-cart3 {
+    font-size: 25px;
+}
+
+.navbar-tool-text {
+    max-width: 100px;
+    font-size: 13px;
+    color: var(--primaryColor);
+    text-align: center;
+}
+
+.navbar-tool-text small {
+    color: var(--grayColor);
+    display: block;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.iconBackground {
+    border: 0 solid #fff;
+    border-radius: 50%;
+    background-color: var(--lightLightGrayColor);
+}
+
+.badgeFontsize {
+    font-size: 11px;
+    background: var(--secondaryColor);
+}
+
+.unit {
+    font-size: 8px;
+}

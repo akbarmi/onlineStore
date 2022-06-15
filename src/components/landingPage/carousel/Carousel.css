@@ -1,0 +1,217 @@
+.carousel-indicators {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+
+.carousel-indicators button {
+    height: 8px !important;
+    width: 8px !important;
+    border-radius: 100%;
+    background-color: var(--grayColor) !important;
+    transition: width 0.3s linear !important;
+}
+
+.carousel-indicators .active {
+    width: 25px !important;
+    height: 8px !important;
+    margin: auto 3px !important;
+    border: 0px !important;
+    border-radius: 10px !important;
+    background-color: var(--secondaryColor) !important;
+}
+
+.carouselWidth {
+    width: 75%;
+}
+
+.Wrapper_ {
+    background: var(--lightBlue);
+}
+
+.navbar {
+    font-size: 14px;
+}
+
+.innerContainer {
+    background: var(--lightBlue);
+    height: 80vh;
+    /* display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between; */
+}
+
+.imageContainer {
+    margin: auto 0;
+}
+
+.innerContainer img {
+    width: 300px;
+}
+
+.textContainer {
+    margin: auto auto;
+    position: relative;
+}
+
+.textAnimationOne {
+    opacity: 0;
+    animation: topic 2s 0.5s forwards;
+}
+
+.textAnimationTwo {
+    opacity: 0;
+    animation: topic 2s 0.6s forwards;
+}
+
+.textAnimationThreeZoomIn {
+    opacity: 0;
+    animation: zoomIn 0.7s 1s forwards;
+}
+
+.textAnimationZoomInOne {
+    opacity: 0;
+    animation: zoomIn 2s 0.5s forwards;
+}
+
+.textAnimationZoomInTwo {
+    opacity: 0;
+    animation: zoomIn 2s 0.6s forwards;
+}
+
+.textAnimationFadeInUpOne {
+    opacity: 0;
+    animation: fadeInUp 2s 0.5s forwards;
+}
+
+.textAnimationFadeInUpTwo {
+    opacity: 0;
+    animation: fadeInUp 2s 0.6s forwards;
+}
+
+.bannerImg {
+    width: 50px;
+}
+
+.bannerText {
+    width: 140px;
+}
+
+.bannerOne {
+    width: 250px;
+    background: var(--lightBlue2);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.bannerTwo {
+    width: 250px;
+    background: var(--lightGreen);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.bannerThree {
+    width: 250px;
+    background: var(--lightYellow);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.buttonPrimary {
+    padding: 5px 10px;
+    color: var(--lightColor);
+    background: var(--secondaryColor);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 2px var(--lightSecondaryColor);
+}
+
+.iconStyle {
+    color: var(--lightColor);
+    padding-right: 8px;
+    font-size: 12px;
+}
+
+.buyButtonBlue {
+    color: var(--blue);
+    margin-top: 5px;
+}
+
+.buyButtonBlue i {
+    color: var(--blue);
+    padding-right: 8px;
+    font-size: 11px;
+}
+
+.buyButtonGreen {
+    color: var(--green);
+    margin-top: 5px;
+}
+
+.buyButtonGreen i {
+    color: var(--green);
+    padding-right: 8px;
+    font-size: 11px;
+}
+
+.buyButtonYellow {
+    margin-top: 5px;
+    color: var(--yellow);
+}
+
+.buyButtonYellow i {
+    color: var(--yellow);
+    padding-right: 8px;
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .carouselWidth {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .imageContainer {
+        margin: auto auto;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes topic {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    to {
+        opacity: 1;
+    }
+}

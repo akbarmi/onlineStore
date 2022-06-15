@@ -1,0 +1,37 @@
+.container2_ {
+    margin-top: 40px;
+}
+
+.instagram {
+    background: var(--lightPink);
+    color: var(--secondaryColor);
+    height: 200px;
+}
+
+.instagramIcon {
+    color: var(--secondaryColor);
+    font-size: 40px;
+}
+
+.instagramIcon:hover {
+    cursor: pointer;
+    color: var(--secondaryColor2);
+    text-shadow: 2px 2px 4px #ccc;
+}
+
+.twitter {
+    background: var(--lightBlue);
+    color: var(--blue);
+    height: 200px;
+}
+
+.twitterIcon {
+    color: var(--blue);
+    font-size: 40px;
+}
+
+.twitterIcon:hover {
+    cursor: pointer;
+    color: var(--purple);
+    text-shadow: 2px 2px 4px #ccc;
+}

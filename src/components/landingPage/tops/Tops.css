@@ -1,0 +1,29 @@
+.imgstlye {
+    width: 64px;
+    height: 64px;
+}
+
+.textColor {
+    color: var(--blue);
+    font-size: 13px;
+}
+
+.textHeader {
+    font-size: 14px;
+}
+
+.moreProducts {
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+
+.moreProducts:hover {
+    color: var(--purple);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: var(--grayColor);
+    background-color: var(--grayColor);
+}

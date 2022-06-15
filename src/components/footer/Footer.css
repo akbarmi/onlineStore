@@ -1,0 +1,20 @@
+.FooterWrapper {
+    background: var(--primaryColor);
+    height: 400px;
+    color: var(--lightGrayColor);
+}
+
+.FooterIconStyle {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.FooterDescription {
+    font-size: 12px;
+    color: var(--grayColor);
+}
+
+.FooterBorderColor {
+    border-bottom: 1px solid var(--grayDarkColor);
+}
