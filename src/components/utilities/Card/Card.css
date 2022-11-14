@@ -6,10 +6,6 @@
     z-index: 1;
 }
 
-.card_:hover {
-    z-index: 2;
-}
-
 .card_ .body_ {
     border: 0 solid #fff;
     border-radius: 10px;
@@ -17,16 +13,6 @@
     height: auto;
     position: absolute;
     background-color: #fff;
-}
-
-.card_:hover .body_ {
-    box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
-    -moz-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
-    -webkit-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
-    -o-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
-    -ms-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
-    /* animation: fadeIn 1s 0.2s forwards; */
-    transition: box-shadow 0.5s;
 }
 
 .card_ .body_ .image {
@@ -74,11 +60,6 @@
     font-weight: normal;
 }
 
-.card_:hover .body_ .informations {
-    display: block;
-    /* transition: opacity 2s ease-out; */
-}
-
 .btnAddCart {
     color: var(--lightColor);
     background: var(--secondaryColor);
@@ -86,7 +67,11 @@
     font-size: 13px;
     width: 100%;
     border: 0px solid var(--secondaryColor);
-    padding: 5px;
+    /* padding: 5px; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btnAddCart i {
@@ -123,13 +108,19 @@
 
 @media only screen and (max-width: 2000px) {
     .card_ {
-        height: 28rem;
+        height: 22rem;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .card_ {
+        height: 20.5rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .card_ {
-        height: 20rem;
+        height: 20.5rem;
     }
 }
 
@@ -145,7 +136,14 @@
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
+    .card_ {
+        height: 36.5rem;
+        border-bottom: 1px solid var(--lightGrayColor);
+    }
+}
+
+@media only screen and (max-width: 460px) {
     .card_ {
         height: 35rem;
     }
@@ -154,5 +152,24 @@
 @media only screen and (max-width: 400px) {
     .card_ {
         height: 30rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card_:hover {
+        z-index: 2;
+    }
+    .card_:hover .body_ {
+        box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        -moz-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        -webkit-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        -o-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        -ms-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        /* animation: fadeIn 1s 0.2s forwards; */
+        transition: box-shadow 0.5s;
+    }
+    .card_:hover .body_ .informations {
+        display: block;
+        /* transition: opacity 2s ease-out; */
     }
 }

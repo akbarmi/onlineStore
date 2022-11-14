@@ -1,0 +1,71 @@
+.managementContainer {
+    background: var(--primaryColor);
+    color: var(--lightGrayColor);
+    font-size: 14px;
+    height: 150px;
+}
+
+.managementBox {
+    border-radius: 10px;
+    position: relative;
+    top: -50px;
+    background: var(--lightColor);
+    width: 100%;
+}
+
+.managementListTitle {
+    border-top-right-radius: 10px;
+    padding: 15px;
+    padding-right: 2rem;
+    background: var(--lightGrayColor);
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.managementUL {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.managementUL a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.managementUL li {
+    padding: 1rem 1rem;
+    border-bottom: 1px solid var(--lightGrayColor);
+}
+
+.managementUL li:hover {
+    color: var(--secondaryColor);
+    background: var(--primaryColor);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.managementUL li .managementListIcon {
+    margin-left: 0.5rem;
+    color: inherit;
+}
+
+.MPLActiveLink {
+    color: var(--secondaryColor) !important;
+}
+
+.MPlistitemBtn {
+    border: 1px solid var(--secondaryColor);
+}
+
+.MPlistitemBtn i {
+    color: inherit;
+}
+
+.MPlistitemBtn:hover {
+    color: var(--lightColor);
+    background: var(--secondaryColor);
+}

@@ -1,0 +1,21 @@
+.unauthorizedContainer {
+    margin: 120px 0;
+}
+
+.unauthorizedimgStyle {
+    width: 400px;
+}
+
+.unauthorizedButton {
+    color: var(--lightColor);
+    border-radius: 5px;
+    background: var(--secondaryColor);
+    border: 0px solid #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.unauthorizedButton:hover {
+    background: var(--secondaryColor2);
+    box-shadow: 0 0 5px var(--secondaryColor);
+}

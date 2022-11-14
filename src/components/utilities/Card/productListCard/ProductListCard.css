@@ -1,0 +1,200 @@
+.PLcard_ {
+    display: inline-block;
+    max-width: 28rem;
+    position: relative;
+    padding: 0px;
+    z-index: 1;
+}
+
+.PLcard_ .PLbody_ {
+    border: 0 solid #fff;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: #fff;
+}
+
+.PLimgWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PLcard_ .PLbody_ .image {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff;
+}
+
+.PLcard_ .PLbody_ h1 {
+    display: block;
+    height: auto;
+    margin: 10px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.PLcard_ .PLbody_ h2 {
+    height: auto;
+    margin: 10px 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.PLcard_ .PLbody_ h3 {
+    height: auto;
+    margin: 10px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.PLcard_ .PLbody_ .informations {
+    display: none;
+}
+
+.PLcard_ .PLbody_ .informations p,
+.PLcard_ .PLbody_ .informations label {
+    display: block;
+    height: auto;
+    margin: 10px 0px;
+    font-size: 10px;
+    color: grey;
+    font-weight: normal;
+}
+
+.PLcard_:hover .PLbody_ .informations {
+    display: block;
+    /* transition: opacity 2s ease-out; */
+}
+
+.PLbtnAddCart {
+    color: var(--lightColor);
+    background: var(--secondaryColor);
+    border-radius: 8px;
+    font-size: 13px;
+    width: 100%;
+    border: 0px solid var(--secondaryColor);
+    padding: 5px;
+}
+
+.PLbtnAddCart i {
+    color: inherit;
+    font-size: 15px;
+    font-weight: 0;
+    padding-right: 5px;
+}
+
+.PLbtnAddCart:hover {
+    background: var(--secondaryColor2);
+}
+
+.PLbtnQuickView {
+    color: var(--primaryColor);
+    background: var(--lightColor);
+    border-radius: 8px;
+    font-size: 13px;
+    width: 100%;
+    border: 0px solid var(--lightColor);
+    padding: 5px;
+}
+
+.PLbtnQuickView i {
+    color: inherit;
+    font-size: 15px;
+    font-weight: 0;
+    padding-right: 5px;
+}
+
+.PLbtnQuickView:hover {
+    color: var(--secondaryColor);
+}
+
+@media only screen and (max-width: 2000px) {
+    .PLcard_ {
+        height: 21rem;
+    }
+    .PLcard_ .PLbody_ .image {
+        max-height: 17rem;
+    }
+    .PLcard_:hover {
+        z-index: 2;
+    }
+    .PLcard_:hover .PLbody_ {
+        box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        -moz-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        -webkit-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        -o-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        -ms-box-shadow: 0px 0px 15px rgba(143, 143, 143, 0.5);
+        /* animation: fadeIn 1s 0.2s forwards; */
+        transition: box-shadow 0.5s;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .PLcard_ {
+        height: 19rem;
+    }
+    .PLcard_ .PLbody_ .image {
+        max-height: 13rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .PLcard_ {
+        height: 20.5rem;
+    }
+    .PLcard_ .PLbody_ .image {
+        max-height: 14.02rem;
+    }
+}
+
+
+/* @media only screen and (max-width: 992px) {
+    .PLcard_ {
+        height: 20.5rem;
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+    .PLcard_ {
+        height: 22rem;
+    }
+    .PLcard_ .PLbody_ .image {
+        max-height: 15.05rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .PLcard_ {
+        height: 22rem;
+    }
+    .PLcard_ .PLbody_ .image {
+        max-height: 17rem;
+    }
+    .PLcard_:hover {
+        z-index: 1;
+    }
+    .PLcard_:hover .PLbody_ {
+        box-shadow: none;
+    }
+    .PLcard_:hover .PLbody_ .informations {
+        display: none;
+        /* transition: opacity 2s ease-out; */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .PLcard_ {
+        height: 21rem;
+    }
+    .PLcard_ .PLbody_ .image {
+        max-height: 17rem;
+    }
+}

@@ -1,0 +1,53 @@
+.MUIuploadBtn {
+    border-style: dashed;
+    width: 100px;
+    height: 100px;
+    border-color: #c8c8c8;
+    border-width: 1px;
+    border-radius: 5px;
+    background: #f7f7f7;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.MUIimageBorder {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+.MUIimageBorder img {
+    max-height: 90px;
+    max-width: 90px;
+    border-radius: 5px;
+}
+
+.MUIbuttonStyle {
+    background: var(--secondaryColor);
+    color: var(--lightColor);
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-right: 2px;
+}
+
+.MUIbuttonStyle:hover {
+    background: var(--secondaryColor2);
+    color: var(--lightColor);
+}
+
+.MUITitle {
+    font-size: 13px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.MUIlinkList {
+    font-size: 13px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}

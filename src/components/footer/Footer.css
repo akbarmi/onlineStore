@@ -1,6 +1,6 @@
 .FooterWrapper {
     background: var(--primaryColor);
-    height: 400px;
+    /* height: 400px; */
     color: var(--lightGrayColor);
 }
 
@@ -17,4 +17,14 @@
 
 .FooterBorderColor {
     border-bottom: 1px solid var(--grayDarkColor);
+}
+
+.adsColor {
+    color: var(--secondaryColor);
+    font-size: 20px;
+}
+
+.FooterAllrights {
+    font-size: 13px;
+    font-weight: lighter;
 }

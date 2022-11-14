@@ -1,0 +1,179 @@
+.MPLImg {
+    height: 160px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.MPLItemTitle {
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.MPLItemSize {
+    font-size: 12px;
+    font-weight: 200;
+    color: var(--grayColor);
+    margin: 0;
+    padding: 0;
+}
+
+.MPLItemSizeQun {
+    font-size: 12px;
+    font-weight: 200;
+    color: var(--primaryColor);
+    margin: 0;
+    padding: 0;
+}
+
+.MPLItemPrice {
+    font-size: 12px;
+    font-weight: 900;
+    color: var(--purple);
+}
+
+.MPLdeleteBtn {
+    background: var(--lightSecondaryColor);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.MPLdeleteBtn:hover {
+    -moz-box-shadow: 0 0 6px #ccc;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.MPLdeleteBtn i {
+    padding: 0;
+    margin: 0;
+    color: var(--secondaryColor2);
+}
+
+.MPLEditBtn {
+    background: var(--lightBlue2);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    padding-top: 10px;
+}
+
+.MPLEditBtn:hover {
+    -moz-box-shadow: 0 0 6px #ccc;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.MPLEditBtn i {
+    padding: 0;
+    margin: 0;
+    color: var(--blue);
+}
+
+.MPLmainTitle {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primaryColor);
+}
+
+.MPLEMPTY {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease;
+    background-color: rgba(36, 36, 36, 0.501);
+}
+
+.MPLEMPTY:hover .overlay {
+    opacity: 1;
+}
+
+.deleteIconOverlay {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+.pagination {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgb(246, 246, 246);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding: 0;
+    border: #fff solid 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.pagination:hover {
+    color: #fff;
+    background: var(--secondaryColor);
+    -moz-box-shadow: 0 0 6px #ccc;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 5px var(--grayColor);
+}
+
+.paginationActive {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    background: var(--secondaryColor);
+    -moz-box-shadow: 0 0 6px #ccc;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 5px var(--grayColor);
+    padding: 0;
+    border: #fff solid 0px;
+}
+
+.pagination i {
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.paginationLR {
+    margin-left: 10px;
+    margin-right: 10px;
+}

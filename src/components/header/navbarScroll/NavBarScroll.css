@@ -1,0 +1,144 @@
+.navbarShow {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    opacity: 1;
+    z-index: 100;
+    animation: navShow 0.5s;
+}
+
+.navbarscrollDisappear {
+    display: none;
+    animation: navdisappear 0.5s;
+}
+
+.NavbarScrollsearchInputShadow {
+    border: 1px solid var(--lightGrayColor);
+    font-size: 14px;
+    padding: 8px;
+}
+
+.NavbarScrollsearchInputShadow:focus {
+    border: 1px solid var(--secondaryColor);
+    box-shadow: 0 0 2px var(--secondaryColor);
+}
+
+.NavbarScrollbackLight {
+    background: var(--lightColor);
+}
+
+
+/* .NavbarScrolltogglerRemoveShadow {
+    border: 0 solid var(--secondaryColor);
+    box-shadow: 0 0 0 var(--secondaryColor);
+}
+
+.NavbarScrolltogglerRemoveShadow:focus {
+    box-shadow: 0 0 0 var(--secondaryColor);
+} */
+
+.NavbarScrollnavbar-tool {
+    max-width: 500px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavbarScrollnavbar-tool-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+}
+
+.NavbarScrollnavbar-tool-icon-box>.bi-cart3 {
+    font-size: 20px;
+}
+
+.NavbarScrollnavbar-tool-icon-box i {
+    color: var(--primaryColor);
+}
+
+.iconColor {
+    color: var(--primaryColor);
+}
+
+.NavbarScrollnavbarIconSize {
+    font-size: 25px;
+}
+
+.NavbarScrollnavbar-tool-text {
+    max-width: 100px;
+    font-size: 13px;
+    color: var(--primaryColor);
+    text-align: center;
+}
+
+.NavbarScrollnavbar-tool-text small {
+    color: var(--grayColor);
+    display: block;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.NavbarScrolliconBackground {
+    border: 0 solid #fff;
+    border-radius: 50%;
+    background-color: var(--lightLightGrayColor);
+}
+
+.NavbarScrollbadgeFontsize {
+    font-size: 10px;
+    background: var(--secondaryColor);
+}
+
+.NavbarScrollunit {
+    font-size: 8px;
+}
+
+.NavbarScrollarrowDrop {
+    font-size: 10px;
+    padding-right: 8px;
+    color: var(--primaryColor);
+}
+
+.NavbarScrollgoUpDropdown-menu {
+    margin-top: -10px !important;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown>.nav-link:active {
+        /*Without this, clicking will make it sticky*/
+        pointer-events: none;
+    }
+}
+
+@keyframes navShow {
+    from {
+        opacity: 0;
+        /* -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0); */
+    }
+    to {
+        opacity: 1;
+        /* -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); */
+    }
+}
+
+@keyframes navdisappear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

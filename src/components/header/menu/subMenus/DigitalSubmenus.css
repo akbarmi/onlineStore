@@ -1,0 +1,18 @@
+.DSMcontainer {
+    border-radius: 5px;
+    background: var(--lightColor);
+}
+
+.DSMcontainer ul {
+    list-style-type: none;
+    padding: 20px 5px;
+    color: var(--primaryColor);
+}
+
+.DSMcontainer ul li {
+    padding: 5px 5px;
+}
+
+.DSMcontainer ul li:hover {
+    color: var(--secondaryColor);
+}

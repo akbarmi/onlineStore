@@ -1,10 +1,10 @@
-.inputShadow {
+.searchInputShadow {
     border: 1px solid var(--lightGrayColor);
     font-size: 14px;
     padding: 8px;
 }
 
-.inputShadow:focus {
+.searchInputShadow:focus {
     border: 1px solid var(--secondaryColor);
     box-shadow: 0 0 2px var(--secondaryColor);
 }
@@ -72,4 +72,25 @@
 
 .unit {
     font-size: 8px;
+}
+
+.arrowDrop {
+    font-size: 10px;
+    padding-right: 8px;
+    color: var(--primaryColor);
+}
+
+.goUpDropdown-menu {
+    margin-top: -25px !important;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown>.nav-link:active {
+        /*Without this, clicking will make it sticky*/
+        pointer-events: none;
+    }
 }

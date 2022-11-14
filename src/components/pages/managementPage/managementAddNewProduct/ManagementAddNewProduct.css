@@ -1,0 +1,39 @@
+.MANPmainTitle {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primaryColor);
+}
+
+.MANPtitls {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px 4px 0 0;
+}
+
+.MANPClasificationbtn {
+    padding: 0;
+    margin-right: 5px;
+}
+
+.MANPClasificationbtn:hover {
+    border: 0 solid #fff;
+}
+
+.MANPClasificationbtn:focus {
+    border: 0 solid #fff;
+}
+
+.MANPClasificationbtn:hover .bi-plus-circle {
+    color: var(--blue);
+}
+
+.MANPbuttonStyle {
+    background: var(--secondaryColor);
+    color: var(--lightColor);
+}
+
+.MANPbuttonStyle:hover {
+    background: var(--secondaryColor2);
+    color: var(--lightColor);
+}

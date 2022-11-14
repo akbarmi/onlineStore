@@ -1,0 +1,25 @@
+.btnMoreProducts {
+    font-size: 13px;
+    color: var(--purple);
+    border: 1px solid var(--purple);
+    border-radius: 5px;
+}
+
+.btnMoreProducts .iconStyle {
+    font-size: 12px;
+    margin-right: 8px;
+    color: inherit;
+}
+
+.btnMoreProducts:hover {
+    color: var(--lightColor);
+    background: var(--purple);
+}
+
+@media screen and (max-width: 576px) {
+    .centerInSmSize {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

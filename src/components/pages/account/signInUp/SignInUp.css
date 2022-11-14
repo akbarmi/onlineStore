@@ -1,0 +1,77 @@
+.navBorder {
+    border: 0px solid var(--lightBlue) !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: var(--secondaryColor);
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 14px;
+}
+
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    color: var(--primaryColor);
+    font-size: 14px;
+}
+
+.SignInUpIconStyle {
+    padding-left: 5px;
+    text-align: center;
+    color: inherit;
+    font-size: 20px;
+}
+
+.modalHeaderBackgroung {
+    background: var(--lightBlue);
+}
+
+.buttonStyle {
+    background: var(--secondaryColor);
+    width: 100%;
+    color: var(--lightColor);
+}
+
+.rememberMe {
+    margin-left: 5px;
+    color: var(--primaryColor);
+}
+
+.rememberMelabel {
+    font-size: 13px;
+}
+
+.forgotPassword {
+    color: var(--secondaryColor);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: var(--secondaryColor2);
+}
+
+.inputShadow {
+    border: 1px solid var(--lightGrayColor);
+    font-size: 13px;
+    padding: 4px;
+}
+
+.inputShadow:focus {
+    border: 1px solid var(--secondaryColor);
+    box-shadow: 0 0 2px var(--secondaryColor);
+}
+
+.btnClose {
+    font-size: 12px;
+}
+
+.SIUfontSize {
+    font-size: 13px;
+    font-weight: 600;
+}

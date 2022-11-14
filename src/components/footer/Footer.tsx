@@ -1,4 +1,5 @@
 import "./Footer.css";
+import akbar from "../../assets/icons/akbarmirzaei.svg";
 
 const Footer = () => {
   return (
@@ -27,7 +28,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="col d-flex justify-content-center ">
+          <div className="col d-flex  ">
             <div className="">
               <i className="bi bi-currency-dollar FooterIconStyle"></i>
             </div>
@@ -50,10 +51,21 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>
-          <p>
-            تمام حقوق اين وب‌سايت متعلق به اکبر میرزایی (فرانت) و پیمان قادری
-            (بک) است.
+        <div className="d-flex flex-column justify-content-center align-items-center pt-4 pb-2">
+          <p className="FooterAllrights">
+            © {new Date().getFullYear()} تمامی حقوق مادی و معنوی این وب سایت
+            متعلق به فروشگاه فلامینگو مارکتس می&zwnj;باشد.
+          </p>
+          <p className="FooterAllrights">
+            طراحی شده توسط گروه
+            <a
+              href="https://www.linkedin.com/in/akbar-mirzaei-90854787/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={akbar} alt="" width={40} />
+            </a>
+            {/* <span> </span>و پ.ق */}
           </p>
         </div>
       </div>

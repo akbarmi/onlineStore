@@ -1,0 +1,28 @@
+.PLdividerIcon {
+    --bs-breadcrumb-divider: "/";
+}
+
+.PLiconColor {
+    color: inherit;
+}
+
+.PLBreacrumbFont {
+    text-decoration: none;
+    color: var(--lightColor);
+    font-weight: lighter;
+}
+
+.PLBreacrumbFont:hover {
+    color: var(--secondaryColor);
+}
+
+.PLFilter {
+    border: 0 solid var(--primaryColor);
+    border-radius: 10px;
+    box-shadow: 5px;
+    background: var(--lightColor);
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    position: relative;
+    top: -50px;
+}

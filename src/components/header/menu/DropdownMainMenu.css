@@ -1,0 +1,70 @@
+.DMMlist {
+    padding-top: 0;
+    margin: 0;
+    color: var(--grayDarkColor);
+    font-size: 14px;
+    font-weight: 600;
+    border: 0 solid #fff;
+    -moz-box-shadow: 0 0 6px #ccc;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px rgb(173, 173, 173);
+}
+
+.DMMlist a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.DMMlist a:not(:last-child) {
+    border-bottom: 1px solid var(--lightGrayColor);
+}
+
+.DMMlist a:hover {
+    color: var(--secondaryColor);
+    background: var(--lightColor);
+}
+
+.DMMlist i {
+    color: inherit;
+    padding-left: 8px;
+}
+
+.DMMlist .arrowLeft {
+    font-size: 10px;
+    padding-right: 50px;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    min-height: 100%;
+    min-width: 500px;
+    -moz-box-shadow: 0 0 6px #ccc;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px rgb(173, 173, 173);
+}
+
+.dropdown-menu a li:hover .dropdown-submenu {
+    display: block;
+}
+
+@media screen and (max-width: 992px) {
+    .DMMlist .arrowLeft {
+        font-size: 10px;
+        padding-right: 5px;
+        padding-left: 0;
+        transform: rotate(-90deg);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .dropdown-item:hover .DSMcontainer {
+        display: block;
+    }
+}

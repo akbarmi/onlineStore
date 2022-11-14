@@ -1,0 +1,157 @@
+.basketContainer {
+    background: var(--primaryColor);
+    color: var(--lightGrayColor);
+    font-size: 13px;
+    height: 150px;
+}
+
+.basketdividerIcon {
+    --bs-breadcrumb-divider: "/";
+}
+
+.basketiconColor {
+    color: inherit;
+}
+
+.basketBreacrumbFont {
+    text-decoration: none;
+    color: var(--lightColor);
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.basketBreacrumbFont:hover {
+    color: var(--secondaryColor);
+}
+
+.basketTotalPrice {
+    border: 0 solid var(--primaryColor);
+    border-radius: 10px;
+    box-shadow: 5px;
+    background: var(--lightColor);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+}
+
+.basketbtnContinue {
+    color: var(--lightColor);
+    background: var(--secondaryColor);
+    border-radius: 8px;
+    font-size: 13px;
+    width: 100%;
+    border: 0px solid var(--secondaryColor);
+    padding: 5px;
+    margin-top: 16px;
+}
+
+.basketbtnContinue i {
+    color: inherit;
+    font-size: 15px;
+    font-weight: 0;
+    padding-right: 5px;
+}
+
+.basketbtnContinue:hover {
+    background: var(--secondaryColor2);
+}
+
+.basketImg {
+    height: 160px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.basketItemTitle {
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.basketItemSize {
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--grayColor);
+    margin: 0;
+    padding: 0;
+}
+
+.basketItemSizeQun {
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--primaryColor);
+    margin: 0;
+    padding: 0;
+}
+
+.basketItemPrice {
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: 900;
+    color: var(--purple);
+}
+
+.postPrice {
+    color: var(--grayColor);
+    font-size: 13px;
+}
+
+.basketCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    -moz-box-shadow: 0 0 2px #ccc;
+    -webkit-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px rgb(173, 173, 173);
+}
+
+.basketCounter label {
+    width: 30px;
+    text-align: center;
+    text-justify: inherit;
+}
+
+.basketCounter i {
+    padding: 4px 4px 0 4px;
+    margin: 0;
+}
+
+.emptyBasket {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 992px) {
+    .basketTotalPrice {
+        position: absolute;
+        top: -50px;
+        left: 5px;
+        margin-top: 0;
+    }
+}
+
+.BasketdeleteBtn {
+    background: var(--lightSecondaryColor);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    padding-top: 10px;
+    margin: 0 10px;
+    -moz-box-shadow: 0 0 2px #ccc;
+    -webkit-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px rgb(173, 173, 173);
+}
+
+.BasketdeleteBtn:hover {
+    -moz-box-shadow: 0 0 6px #ccc;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.bi-plus-circle,
+.bi-dash-circle {
+    cursor: pointer;
+}
